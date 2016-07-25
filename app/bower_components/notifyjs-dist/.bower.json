@@ -1,0 +1,23 @@
+{
+  "name": "notifyjs-dist",
+  "version": "0.3.2",
+  "homepage": "http://notifyjs.com/",
+  "authors": [
+    "Jaime Pillora <dev@jpillora.com>"
+  ],
+  "description": "The distributable files of a simple, versatile notification library",
+  "main": "notify.js",
+  "keywords": [
+    "notification"
+  ],
+  "license": "MIT",
+  "_release": "0.3.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.2",
+    "commit": "928109e520ce0634c341d7a387da674f43124750"
+  },
+  "_source": "https://github.com/azder/notifyjs-dist.git",
+  "_target": "^0.3.2",
+  "_originalSource": "notifyjs-dist"
+}
