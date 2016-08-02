@@ -30,6 +30,12 @@ define(['jquery',
     self.messageReceived = ko.observable('');
     
 
+    self.offices = ko.observableArray([]);
+
+    $.get('http://beertap.iqmetrix.com/Offices', function (data, status) {
+        self.offices.push('iQ Head Quarters');
+    });
+
     // Keeping connection status in model
     self.connection = new ConnectionViewModel();
   };
